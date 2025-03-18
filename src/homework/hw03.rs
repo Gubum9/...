@@ -10,13 +10,13 @@ pub fn draw_square() {
             } else if i == j || j == SIZE - i - 1 {
                 square.push('*');
             } else {
-                square.push(' '); // Заповнюємо порожні місця
+                square.push(' '); 
             }
         }
         square.push('\n');
     }
 
-    print!("{}", square); // Один print!
+    print!("{}", square); 
 }
 
 fn main() {
