@@ -21,5 +21,5 @@ pub fn draw_rhombus(size: usize) {
 }
 
 fn main() {
-    draw_rhombus(6); // Висота
+    draw_rhombus(6); 
 }
